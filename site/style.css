@@ -1,0 +1,46 @@
+body{
+	background-color: beige;
+}
+p{
+	 color: purple;
+	 font-size: 30px;
+	 width: 300px;
+	}
+	#name, h1{
+	  color: green;
+	  font-size: 50px;
+	  text-align: right;
+	  font-weight: bold;
+	}
+	#name{
+	  color: yellow;
+	  font-size: 42px;
+	  text-align: right;
+	  font-weight: bold;
+	  background-color: red;
+	  opacity: .75;
+	}
+	sub {
+		vertical-align: super;
+		font-size: 21px;
+	}
+	header li{
+		list-style: none;
+	}
+	a:link, a:hover{
+		text-decoration: none;
+		background-color: green;
+		border: 2px solid blue;
+		color: black;
+		display:block; 
+		width:150px;
+		text-align: center;
+		margin-bottom: 2px;
+	}
+	a:hover, a:active{
+		background-color: red;
+		color:brown;
+	}
+	header li:nth-child(3) {
+		font-size: 20px;
+	}
