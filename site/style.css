@@ -1,5 +1,12 @@
+*{
+	box-sizing: border-box;
+
+}
 body{
-	background-color: beige;
+	background-color: #34bdeb;
+	font-family: verdana;
+	margin: 5;
+	padding: 5;
 }
 p{
 	 color: purple;
@@ -15,10 +22,18 @@ p{
 	#name{
 	  color: yellow;
 	  font-size: 42px;
-	  text-align: right;
+	  text-align: center;
 	  font-weight: bold;
 	  background-color: red;
 	  opacity: .75;
+	}
+	#boarder{
+		background-color: white;
+		padding: 5px;
+		margin: 10px;
+		width: 1000px;
+		height: 50px;
+		overflow: auto;
 	}
 	sub {
 		vertical-align: super;
@@ -43,4 +58,43 @@ p{
 	}
 	header li:nth-child(3) {
 		font-size: 20px;
+	}
+	#bi {
+		width: 1000px;
+		height: 1000px;
+		background-color: #34eb67;
+		background-image: url("monke.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin:10px;
+
+	}
+	div>p {
+		width: 50px;
+		height: 50px;
+		border: 1px solid black;
+		float: left;
+		margin-right: 5px;
+	}
+	#s1 {
+		background-color: #eb34d3;
+		width: 50px;
+		height: 50px;
+		border: 1px solid black;
+	}
+	#s2 {
+		background-color: #4334eb;
+		width: 50px;
+		height: 50px;
+		border: 1px solid black;
+	}
+	#s3 {
+		background-color: #ebb434;
+		width: 50px;
+		height: 50px;
+		border: 1px solid black;
+		clear: left;
+	}
+	footer{
+		clear: left;
 	}
